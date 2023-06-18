@@ -7,7 +7,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       # Install NPM dependences, cache them correctly
-      # and run all Cypress 
+      # and run all Cypress
     
       - name: Cypress run
         uses: cypress-io/github-action@v2
