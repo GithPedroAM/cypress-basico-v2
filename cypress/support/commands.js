@@ -33,3 +33,7 @@ Cypress.Commands.add('fillMandatoryFieldsAndSubmit', function(){
 Cypress.Commands.add('success', function(){
     cy.get('.success').should('be.visible')
 })
+
+Cypress.Commands.add('fail', function(){
+    cy.get('.success').should('not.be.visible')
+})
